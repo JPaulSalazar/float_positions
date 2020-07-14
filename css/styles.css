@@ -1,10 +1,39 @@
 .wrapper{
-    width: auto;
+    width: 1000px;
     margin: 0px auto;
 }
 #header{
-    width: auto;
+    width: 1000px;
     height: 100px;
     background-color: red;
     margin: 0px auto;
+}
+.clearfix:: after{
+    content: "";
+    clear: both;
+    display: table;
+}
+#element1{
+    background-color: yellow;
+    height: 500px;
+    width: 250px;
+    float: left;
+}
+#element2{
+    background-color: fuchsia;
+    height: 500px;
+    width: 250px;
+    float: left;
+}
+#element3{
+    background-color: midnightblue;
+    height: 500px;
+    width: 250px;
+    float: left;
+}
+#element4{
+    background-color: limegreen;
+    height: 500px;
+    width: 250px;
+    float: left;
 }
