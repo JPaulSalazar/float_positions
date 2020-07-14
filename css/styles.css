@@ -17,24 +17,28 @@
     height: 500px;
     width: 250px;
     float: left;
+    position: relative;
 }
 #element2{
     background-color: fuchsia;
     height: 500px;
     width: 250px;
     float: left;
+    position: relative;
 }
 #element3{
     background-color: midnightblue;
     height: 500px;
     width: 250px;
     float: left;
+    position: relative;
 }
 #element4{
     background-color: limegreen;
     height: 500px;
     width: 250px;
     float: left;
+    position: relative;
 }
 #subelement1{
     background-color: teal;
@@ -53,4 +57,22 @@
     height: 100px;
     background-color: red;
     float: right;
+}
+#top{
+    position: absolute;
+    left: 20px;
+}
+#bottom{
+    position: absolute;
+    bottom: 8px;
+    left:190px;
+}
+#right{
+    position: absolute;
+    left: 190px;
+}
+#left{
+    position: absolute;
+    bottom: 8px;
+    left: 20px;
 }
